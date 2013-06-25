@@ -1,0 +1,15 @@
+{{ form.media }}
+{% for hidden in form.hidden_fields %}
+    {{ hidden }}
+{% endfor %}
+{{ form.non_field_errors }}
+{% for field in form.visible_fields %}
+    <div class="form_field" id="div_{{ field.auto_id }}">
+        <div class="label-block">{{ field.label_tag }}:</div>
+        <div class="field-block {% if field.field.required %}required{% endif %}">
+            {{ field }}
+            {{ field.errors }}
+            {% if field.help_text %}<span class="form_field_help_text">{{ field.help_text}}</span>{% endif %}
+        </div>
+    </div>
+{% endfor %}

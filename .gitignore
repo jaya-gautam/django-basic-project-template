@@ -1,0 +1,37 @@
+# Lines that start with '#' are comments.
+# See gitignore(5) for details.
+
+# python pre-compiled source files
+*.pyc
+*.pyo
+
+# porject-specific web server logs (or symlinks)
+/*.error.log
+/*.access.log
+
+# compass/sass styles cache directory
+.sass-cache/
+
+# active environment settings symlink
+/{{ project_name }}/settings/__init__.py
+# local settings overrides
+/{{ project_name }}/settings/_local.py
+
+# local PIP requirements overrides
+/requirements/local.txt
+
+# media files created by site users
+/{{ project_name }}/media/uploads/
+# Django contrib.staticfiles generated files
+/{{ project_name }}/media/static/
+# Django staticgenerator cache
+/{{ project_name }}/media/cache/
+
+# directory to store fcgi/memcached/whatever runtime files/sockets
+/tmp/
+
+# per-project uWSGI overrides
+/uwsgi.ini
+
+# Vagrant state files
+/.vagrant

@@ -1,0 +1,9 @@
+
+### ADDED BY django_base_box provisioning
+# virtualenv:
+export VIRTUALENV_DISTRIBUTE=true
+# virtualenvwrapper:
+export WORKON_HOME=~/.virtualenvs
+export PROJECT_HOME=~/projects
+export VIRTUALENVWRAPPER_SCRIPT=/usr/local/bin/virtualenvwrapper.sh
+source /usr/local/bin/virtualenvwrapper_lazy.sh

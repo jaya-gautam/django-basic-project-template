@@ -1,0 +1,1 @@
+{% now "i" %} 04 * * *  ~/project/cron/gzip_static_media.sh

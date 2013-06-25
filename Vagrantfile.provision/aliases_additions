@@ -1,0 +1,6 @@
+
+### ADDED BY django_base_box provisioning
+
+alias runserver='python manage.py runserver 0.0.0.0:8000'
+alias migrate='python manage.py syncdb --migrate'
+alias install_deps='pip install -r requirements/development.txt'

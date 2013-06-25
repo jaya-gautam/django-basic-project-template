@@ -1,0 +1,24 @@
+# Project requirements common to all envorinments.
+# See http://pip-installer.org/requirement-format.html for details.
+
+django>1.5,<1.6
+django-grappelli>2.4,<2.5
+pillow>=2.0.0,<2.1
+psycopg2>=2.5,<2.6
+pytz
+raven>3.3,<3.4
+south>0.7,<0.8
+
+#django-flatblocks==0.6.0
+#django-markitup
+#Markdown
+#-e git://github.com/mikek/django-ckeditor.git@47c6d0a456#egg=django-ckeditor
+#-e git://github.com/h3/django-contact-form.git@e5c03cee7b#egg=contact-form
+#-e git://github.com/mikek/django-honeypot.git#egg=django-honeypot
+#-e git://github.com/sorl/sorl-thumbnail.git@cf1828ab84#egg=sorl_thumbnail
+#-e git://github.com/willhardy/django-seo.git@849050b400#egg=django-seo
+#-e git://github.com/django-mptt/django-mptt.git@a035507689#egg=django-mptt
+
+# provides slugify() with cyrillic support, used by django-tourbus
+-e git://github.com/j2a/pytils.git@bcef4bb5f3ec9#egg=pytils
+-e git+ssh://git@bitbucket.org/basiccolours/django-tourbus.git@v0.4.13#egg=django-tourbus

@@ -1,0 +1,3 @@
+robots.txt and sitemap.xml are here to be found by webserver before falling
+back to passing the request to Django, where django-toplevel-files might
+handle it.
