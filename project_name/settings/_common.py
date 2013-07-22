@@ -186,9 +186,6 @@ INSTALLED_APPS = (
     'tourbus',
 )
 
-# TODO: is 0644 in Django 1.5+, so can be removed
-FILE_UPLOAD_PERMISSIONS = 0644
-
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': True,
