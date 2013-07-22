@@ -28,7 +28,7 @@ Source it or launch a new shell.
     export PROJECT_NAME=yourprojectname
     mkproject $PROJECT_NAME
     git clone https://github.com/mikek/django-basic-project-template.git
-    pip install `grep ^django[=><] django-basic-project-template/requirements/common.txt`
+    pip install `grep "^django[=><]" django-basic-project-template/requirements/common.txt`
     mkdir project
     django-admin.py startproject --template=django-basic-project-template -n Vagrantfile,.gitignore -e py,sh,cron $PROJECT_NAME project
     echo `pwd`/project > $VIRTUAL_ENV/.project
