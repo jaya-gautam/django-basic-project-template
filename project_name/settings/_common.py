@@ -253,7 +253,6 @@ GRAPPELLI_ADMIN_TITLE = '{{ project_name }} admin site'
 #            ['Bold', 'Italic', '-', 'NumberedList', 'BulletedList', '-',
 #             'Link', 'Unlink', 'Source']
 #        ],
-#        'skin': 'v2',
 #        'height': 300,
 #        'width': 800,
 #        'language': 'ru',
