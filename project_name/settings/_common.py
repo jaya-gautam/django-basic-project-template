@@ -54,7 +54,6 @@ USE_TZ = True
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
 #LANGUAGE_CODE = 'en'
-LANGUAGE_CODE = 'ru'
 
 #gettext = lambda s: s
 #LANGUAGES = (
@@ -145,7 +144,6 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     "django.core.context_processors.tz",
     "django.contrib.messages.context_processors.messages",
     "django.core.context_processors.request",
-    "tourbus.context_processors.settings_to_context",
 )
 
 ROOT_URLCONF = '{{ project_name }}.urls'
@@ -183,7 +181,6 @@ INSTALLED_APPS = (
     #'rollyourown.seo',
     'south',
     'raven.contrib.django.raven_compat',
-    'tourbus',
 )
 
 LOGGING = {
@@ -258,8 +255,3 @@ GRAPPELLI_ADMIN_TITLE = '{{ project_name }} admin site'
 #        'language': 'ru',
 #    },
 #}
-
-# tourbus
-EXPORT_TO_CONTEXT = {
-    'GOOGLE_ANALYTICS_KEY': '',
-}

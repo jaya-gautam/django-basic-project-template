@@ -2,12 +2,7 @@ from django.conf.urls import url, patterns, include
 from django.conf import settings
 from django.contrib import admin
 
-from tourbus.views import http_404, http_500
-
 admin.autodiscover()
-
-handler404 = http_404
-handler500 = http_500
 
 urlpatterns = patterns(
     '',

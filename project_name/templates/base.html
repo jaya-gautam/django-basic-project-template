@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 {% load static from staticfiles %}
-{% load tourbus %}
 {#% load flatblock_tags %#}
 {#% load flatpages %#}
 <html lang="en">
@@ -17,7 +16,6 @@
 <body>
     <div class="container">
         {% block content %}{% endblock %}
-        <p>© {{ 2013|copyright_year }}</p>
     </div>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>

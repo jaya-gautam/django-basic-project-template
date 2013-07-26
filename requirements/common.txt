@@ -18,7 +18,3 @@ south>0.7,<0.8
 #-e git://github.com/sorl/sorl-thumbnail.git@cf1828ab84#egg=sorl_thumbnail
 #-e git://github.com/willhardy/django-seo.git@849050b400#egg=django-seo
 #-e git://github.com/django-mptt/django-mptt.git@a035507689#egg=django-mptt
-
-# provides slugify() with cyrillic support, used by django-tourbus
--e git://github.com/j2a/pytils.git@bcef4bb5f3ec9#egg=pytils
--e git+ssh://git@bitbucket.org/basiccolours/django-tourbus.git@v0.4.13#egg=django-tourbus
