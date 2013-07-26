@@ -3,6 +3,8 @@
 This Django project template is customized to our workflow. It can be used
 as is or as a starting point to make your own template.
 
+The `bc` branch contains a few specific settings and relies on some internal
+tools. For a random stranger the `master` branch is a way to go.
 
 ## Make sure you have virtualenvwrapper configured (once)
 
@@ -27,7 +29,7 @@ Source it or launch a new shell.
 
     export PROJECT_NAME=yourprojectname
     mkproject $PROJECT_NAME
-    git clone https://github.com/mikek/django-basic-project-template.git
+    git clone https://github.com/mikek/django-basic-project-template.git -b bc
     pip install `grep "^django[=><]" django-basic-project-template/requirements/common.txt`
     mkdir project
     django-admin.py startproject --template=django-basic-project-template -n Vagrantfile,.gitignore -e py,sh,cron $PROJECT_NAME project
