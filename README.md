@@ -37,6 +37,14 @@ Source it or launch a new shell.
     ln -s development.py project/$PROJECT_NAME/settings/__init__.py
     rm -rf django-basic-project-template
 
+ * adjust files in `requirements` directory
+ * edit `settings/_common.py` *INSTALLED_APPS*
+
+Install all dependencies and sync database
+
+    pip install -r requirements/development.txt
+    ./manage.py syncdb
+
 ### Integration with optional tools
 
 This template integrates with a few optional tools
@@ -82,7 +90,6 @@ The resulting structure should look like this:
 ## Daily workflow
 
     workon yourprojectname
-    pip install -r requirements/development.txt
     ./manage.py runserver
 
 ## Related links
