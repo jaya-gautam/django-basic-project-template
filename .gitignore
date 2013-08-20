@@ -35,3 +35,7 @@
 
 # Vagrant state files
 /.vagrant
+
+# Rendered README files
+/README.html
+/Vagrantfile.README.html
