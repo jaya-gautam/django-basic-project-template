@@ -13,7 +13,7 @@ south>0.7,<0.8
 #django-markitup
 #Markdown
 #-e git://github.com/mikek/django-ckeditor.git@47c6d0a456#egg=django-ckeditor
-#-e git://github.com/h3/django-contact-form.git@e5c03cee7b#egg=contact-form
+#-e git://github.com/h3/django-contact-form.git@5890da6fa6#egg=contact-form
 #-e git://github.com/mikek/django-honeypot.git#egg=django-honeypot
 #-e git://github.com/sorl/sorl-thumbnail.git@cf1828ab84#egg=sorl_thumbnail
 #-e git://github.com/willhardy/django-seo.git@849050b400#egg=django-seo
