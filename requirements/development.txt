@@ -4,4 +4,4 @@ django-debug-toolbar
 #python-memcached
 
 # custom fabric deployment tasks
--e git://github.com/mikek/webdev-fab.git@v0.4.5#egg=webdev-fab
+-e git://github.com/mikek/webdev-fab.git@v0.4.6#egg=webdev-fab
