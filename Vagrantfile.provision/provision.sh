@@ -21,8 +21,10 @@ echo "LC_ALL=en_US.UTF8" >> /etc/default/locale
 
 # Install essential packages
 apt-get update -y
-apt-get install -y build-essential python python-dev python-setuptools python-pip \
-  git mercurial libxml2 libxslt1-dev libjpeg-dev libpng-dev libfreetype6-dev mc \
+apt-get install -y build-essential \
+  python python-dev python-setuptools python-pip \
+  git mercurial mc wget curl \
+  gettext libxml2 libxslt1-dev libjpeg-dev libpng-dev libfreetype6-dev \
   postgresql-$PGSQL_VERSION postgresql-contrib-$PGSQL_VERSION postgresql-plperl-$PGSQL_VERSION libpq-dev
 apt-get clean
 pip --quiet install virtualenvwrapper
