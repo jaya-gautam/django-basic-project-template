@@ -24,21 +24,14 @@ Source it or launch a new shell.
 
 ### Start new django project from template
 
-    export PROJECT_NAME=yourprojectname
-    mkproject $PROJECT_NAME
-    git clone https://github.com/mikek/django-basic-project-template.git
-    pip install `grep "^django[=><]" django-basic-project-template/requirements/common.txt`
-    mkdir project
-    django-admin.py startproject --template=django-basic-project-template -n Vagrantfile,.gitignore -e py,sh,cron $PROJECT_NAME project
-    echo `pwd`/project > $VIRTUAL_ENV/.project
-    ln -s development.py project/$PROJECT_NAME/settings/__init__.py
-    rm -rf django-basic-project-template
+    curl https://raw.githubusercontent.com/mikek/django-basic-project-template/master/create.sh | bash -s yourprojectname
 
  * adjust files in `requirements` directory
  * edit `settings/_common.py` *INSTALLED_APPS*
 
 Install all dependencies and sync database
 
+    workon yourprojectname
     pip install -r requirements/development.txt
     ./manage.py syncdb
 
