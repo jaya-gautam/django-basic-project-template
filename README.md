@@ -14,11 +14,8 @@ Install virtualenvwrapper and deps with pip or your packagemanager.
 
 Add something like this to .bashrc:
 
-    export VIRTUALENV_DISTRIBUTE=true
     # virtualenvwrapper
-    export WORKON_HOME=~/.virtualenvs
     export PROJECT_HOME=~/Workplace/Sources/web/django
-    export VIRTUALENVWRAPPER_SCRIPT=/usr/bin/virtualenvwrapper.sh
     source /usr/bin/virtualenvwrapper_lazy.sh
 
 Source it or launch a new shell.
