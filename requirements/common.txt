@@ -1,13 +1,13 @@
 # Project requirements common to all envorinments.
 # See http://pip-installer.org/requirement-format.html for details.
 
-django>1.5,<1.6
-django-grappelli>2.4,<2.5
-pillow>=2.0.0,<2.1
-psycopg2>=2.5,<2.6
-pytz>=2013b
-raven>3.3,<3.4
-south>0.7,<0.8
+django>1.6,<1.7
+django-grappelli>2.5,<2.6
+pillow>2.2.2,<2.4
+psycopg2>2.5,<2.6
+pytz
+raven>4.0,<4.1
+south>0.8,<0.9
 
 #django-flatblocks==0.6.0
 #django-markitup
