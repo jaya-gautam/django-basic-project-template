@@ -24,7 +24,7 @@ Source it or launch a new shell.
 
 ### Start new django project from template
 
-    curl https://raw.githubusercontent.com/mikek/django-basic-project-template/bc/create.sh | bash -s yourprojectname
+    curl https://raw.github.com/mikek/django-basic-project-template/bc/create.sh | bash -s yourprojectname
 
  * adjust files in `requirements` directory
  * edit `settings/_common.py` *INSTALLED_APPS*
