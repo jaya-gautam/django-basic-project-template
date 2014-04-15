@@ -21,4 +21,4 @@ south>0.8,<0.9
 
 # provides slugify() with cyrillic support, used by django-tourbus
 -e git://github.com/j2a/pytils.git@bcef4bb5f3ec9#egg=pytils
--e git+ssh://git@bitbucket.org/basiccolours/django-tourbus.git@v0.4.13#egg=django-tourbus
+-e git+ssh://git@bitbucket.org/basiccolours/django-tourbus.git@v0.4.14#egg=django-tourbus
