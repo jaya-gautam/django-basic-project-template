@@ -12,9 +12,9 @@ south>0.8,<0.9
 #django-flatblocks>=0.8,<0.9
 #django-markitup
 #Markdown
+#sorl-thumbnail==11.12.1b
 #-e git://github.com/mikek/django-ckeditor.git@5eded1b#egg=django-ckeditor
 #-e git://github.com/h3/django-contact-form.git@5890da6fa6#egg=contact-form
 #-e git://github.com/mikek/django-honeypot.git#egg=django-honeypot
-#-e git://github.com/mariocesar/sorl-thumbnail.git@2a4a5bceb3#egg=sorl_thumbnail
 #-e git://github.com/willhardy/django-seo.git@3089686a3c4#egg=django-seo
 #-e git://github.com/django-mptt/django-mptt.git@e82722d915#egg=django-mptt
