@@ -3,7 +3,7 @@
 
 django>1.6,<1.7
 django-grappelli>2.5,<2.6
-pillow>2.2.2,<2.4
+pillow>=2.4.0,<2.5
 psycopg2>2.5,<2.6
 pytz
 raven>4.0,<4.1
